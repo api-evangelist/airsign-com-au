@@ -64,5 +64,123 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-AirSign is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://airsign.com.au
+AirSign provides Australian digital document signing software, enabling businesses and individuals to securely sign contracts, agreements, and forms online with legally valid electronic signatures. The platform offers a RESTful API for integration, customizable workflows, and compliance with Australian e‑signature regulations, supporting a range of industries from finance to real estate.
+
+**Areas:** Company · e-signature · digital-signature · Australia · API
+
+## AirSign on APIs.io
+
+Everything profiled for AirSign is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/airsign-com-au/](https://apis.io/providers/airsign-com-au/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [AirSign API](https://apis.io/apis/airsign-com-au/airsign-api/) — REST API for the AirSign e-signature platform.
+- [AirSign API Api-docs API](https://apis.io/apis/airsign-com-au/airsign-api-api-docs-api/) — AirSign is an Australian e-signature platform. The REST API lets you create signing
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [CreateSessionFromTemplateRequest](https://apis.io/schemas/airsign-com-au/airsign-com-au-create-session-from-template-request/)
+- [CreateTemplateRequest](https://apis.io/schemas/airsign-com-au/airsign-com-au-create-template-request/)
+- [SessionFromTemplateResponse](https://apis.io/schemas/airsign-com-au/airsign-com-au-session-from-template-response/)
+- [SessionSummary](https://apis.io/schemas/airsign-com-au/airsign-com-au-session-summary/)
+- [Template](https://apis.io/schemas/airsign-com-au/airsign-com-au-template/)
+- [UpdateSessionRequest](https://apis.io/schemas/airsign-com-au/airsign-com-au-update-session-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Airsign Com Au Context](https://apis.io/jsonld/airsign-com-au/airsign-com-au-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [AirSign API Rules](https://apis.io/rules/airsign-com-au/airsign-com-au-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [AirSign Authentication](https://apis.io/security/airsign-com-au/airsign-com-au-authentication/)
+- [AirSign Domain Security](https://apis.io/security/airsign-com-au/airsign-com-au-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [AirSign Plans Pricing](https://apis.io/plans/airsign-com-au/airsign-com-au-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://airsign.com.au)
+- [Documentation](https://airsign.com.au/api-docs/overview)
+- [Getting started](https://airsign.com.au/guides/overview)
+- [Pricing](https://airsign.com.au/pricing)
+- [Blog](https://airsign.com.au/blog)
+- [Terms of service](https://airsign.com.au/terms-and-conditions)
+- [Privacy policy](https://airsign.com.au/privacy)
+
+## API Evangelist rating
+
+**Kin Score 46.1** — developing · rubric 0.28.0 · scored 2026-11-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 50.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 35.7 |
+| Access clarity | 48.5 |
+
+**Agent readiness 35.5** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/airsign-com-au/](https://apis.io/providers/airsign-com-au/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for AirSign: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/airsign-com-au/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
